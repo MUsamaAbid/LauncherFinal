@@ -1,0 +1,1977 @@
+fileFormatVersion: 2
+guid: aebc2b1c0e6a2794a8ed3730d2b4ce99
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: DEF-pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-leg.L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-leg.R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-shin-L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-shin-R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-foot.L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-foot.R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-shoulder.L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-shoulder.R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-arm.L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-arm.R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-lowerarm.L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-lowerarm.R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-hand.L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-hand.R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-toes.L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-toes.R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-finger013.L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-finger014.L
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-finger015.L
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-finger010.L
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-finger011.L
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-finger012.L
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-finger07.L
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-finger08.L
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-finger09.L
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-finger04.L
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-finger05.L
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-finger06.L
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-finger01.L
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-finger02.L
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-finger03.L
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-finger013.R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-finger014.R
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-finger015.R
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-finger010.R
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-finger011.R
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-finger012.R
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-finger07.R
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-finger08.R
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-finger09.R
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-finger04.R
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-finger05.R
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-finger06.R
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-finger01.R
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-finger02.R
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-finger03.R
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: ModularCharacterEverything(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature-GameReady_deform
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: DEF-pelvis
+      parentName: Armature-GameReady_deform
+      position: {x: -1.9191395e-18, y: 0.0009557906, z: 0.008587391}
+      rotation: {x: 0.9042641, y: 0.000000050899303, z: 0.000000107796716, w: 0.4269737}
+      scale: {x: 1, y: 0.9999998, z: 1.0000013}
+    - name: DEF-spine
+      parentName: DEF-pelvis
+      position: {x: 7.140956e-17, y: 0.0017525966, z: 5.9604643e-10}
+      rotation: {x: -0.31846473, y: -1.314504e-13, z: -0.000000075927865, w: 0.94793475}
+      scale: {x: 1, y: 0.99999964, z: 0.9999997}
+    - name: DEF-Chest
+      parentName: DEF-spine
+      position: {x: -5.370337e-19, y: 0.0026860354, z: 0}
+      rotation: {x: -0.13242069, y: 2.8331436e-14, z: -0.000000031571584, w: 0.99119365}
+      scale: {x: 1, y: 0.99987537, z: 1.0000798}
+    - name: DEF-neck
+      parentName: DEF-Chest
+      position: {x: -0, y: 0.0027375263, z: 1.4901161e-10}
+      rotation: {x: 0.18345533, y: 6.6266566e-14, z: 0.00000004373919, w: 0.98302805}
+      scale: {x: 1, y: 1.0001216, z: 0.9998761}
+    - name: DEF-head
+      parentName: DEF-neck
+      position: {x: -1.5938639e-16, y: 0.00074961485, z: -1.862645e-10}
+      rotation: {x: -0.07177296, y: -3.470223e-14, z: -0.000000017112031, w: 0.997421}
+      scale: {x: 1, y: 1.0021966, z: 0.9978209}
+    - name: DEF-shoulder.L
+      parentName: DEF-Chest
+      position: {x: -0.00042237836, y: 0.0024530052, z: -0.000008561332}
+      rotation: {x: 0.53243726, y: -0.3249124, z: -0.60111785, w: -0.49959967}
+      scale: {x: 0.9999182, y: 1.000059, z: 1.0001006}
+    - name: DEF-arm.L
+      parentName: DEF-shoulder.L
+      position: {x: -7.4505804e-11, y: 0.0016787648, z: -4.3801263e-10}
+      rotation: {x: 0.16661975, y: 0.01579848, z: 0.02585937, w: 0.9855555}
+      scale: {x: 0.9995932, y: 0.99737716, z: 1.0033773}
+    - name: DEF-lowerarm.L
+      parentName: DEF-arm.L
+      position: {x: -1.8626451e-11, y: 0.003675999, z: 0.000000001451699}
+      rotation: {x: -0.020152621, y: 0.012895253, z: -0.037901916, w: -0.99899507}
+      scale: {x: 0.999986, y: 0.99978817, z: 1.0003324}
+    - name: DEF-hand.L
+      parentName: DEF-lowerarm.L
+      position: {x: -1.8626451e-11, y: 0.0026843944, z: -8.620554e-10}
+      rotation: {x: -0.04449033, y: 0.019118488, z: -0.03706963, w: 0.9981387}
+      scale: {x: 0.99697375, y: 1.0122828, z: 0.9909611}
+    - name: DEF-finger01.L
+      parentName: DEF-hand.L
+      position: {x: 0.00046444192, y: 0.0011849413, z: 0.0000274385}
+      rotation: {x: 0.00043322498, y: -0.08489018, z: 0.02681011, w: -0.99602956}
+      scale: {x: 0.9927476, y: 1.0046872, z: 1.0027163}
+    - name: DEF-finger02.L
+      parentName: DEF-finger01.L
+      position: {x: -0, y: 0.00023722502, z: -4.656613e-10}
+      rotation: {x: -0.03990676, y: 0.0855087, z: -0.012743013, w: 0.9954564}
+      scale: {x: 0.96862453, y: 1.037427, z: 0.99489623}
+    - name: DEF-finger03.L
+      parentName: DEF-finger02.L
+      position: {x: -0, y: 0.00023710521, z: -1.4901161e-10}
+      rotation: {x: -0.08755471, y: 0.049083453, z: -0.014014767, w: 0.9948511}
+      scale: {x: 0.9499573, y: 1.0679878, z: 0.9831636}
+    - name: DEF-finger04.L
+      parentName: DEF-hand.L
+      position: {x: 0.00023513567, y: 0.001351844, z: 0.00008980086}
+      rotation: {x: 0.014445489, y: -0.0065743397, z: 0.01536677, w: -0.999756}
+      scale: {x: 0.9984415, y: 1.002196, z: 0.9993813}
+    - name: DEF-finger05.L
+      parentName: DEF-finger04.L
+      position: {x: -3.7252902e-11, y: 0.00030332405, z: 0.0000000023317988}
+      rotation: {x: -0.032668997, y: 0.016957821, z: -0.019009255, w: 0.9991415}
+      scale: {x: 0.99338675, y: 1.0173587, z: 0.9893285}
+    - name: DEF-finger06.L
+      parentName: DEF-finger05.L
+      position: {x: -3.7252902e-11, y: 0.00025541274, z: 9.0338287e-10}
+      rotation: {x: -0.11169211, y: 0.00096300617, z: 0.021566637, w: 0.9935084}
+      scale: {x: 1.0087904, y: 1.057615, z: 0.93624854}
+    - name: DEF-finger07.L
+      parentName: DEF-hand.L
+      position: {x: -0.000062554755, y: 0.0013088031, z: 0.00015309}
+      rotation: {x: -0.021117248, y: 0.005907548, z: 0.0513607, w: 0.99843943}
+      scale: {x: 1.001698, y: 0.998855, z: 0.9993931}
+    - name: DEF-finger08.L
+      parentName: DEF-finger07.L
+      position: {x: -1.4901161e-10, y: 0.000348934, z: 0.0000000011394149}
+      rotation: {x: -0.040177457, y: -0.0048306137, z: -0.00073291006, w: 0.9991806}
+      scale: {x: 1.0005769, y: 1.0253663, z: 0.97498286}
+    - name: DEF-finger09.L
+      parentName: DEF-finger08.L
+      position: {x: 1.8626451e-11, y: 0.00028171737, z: 3.9784936e-10}
+      rotation: {x: -0.01611482, y: -0.019513331, z: 0.0010036461, w: 0.9996792}
+      scale: {x: 0.99866086, y: 1.0129707, z: 0.9879649}
+    - name: DEF-finger010.L
+      parentName: DEF-hand.L
+      position: {x: -0.000382183, y: 0.0011944778, z: 0.00016760633}
+      rotation: {x: -0.0047464054, y: -0.0074680736, z: 0.0773778, w: 0.9969626}
+      scale: {x: 1.0036637, y: 0.9974386, z: 0.9989374}
+    - name: DEF-finger011.L
+      parentName: DEF-finger010.L
+      position: {x: -1.4901161e-10, y: 0.00031604458, z: 2.2759195e-10}
+      rotation: {x: -0.041521765, y: -0.015938168, z: -0.003768037, w: 0.9990034}
+      scale: {x: 1.0022749, y: 1.0085975, z: 0.9894098}
+    - name: DEF-finger012.L
+      parentName: DEF-finger011.L
+      position: {x: -2.7939676e-10, y: 0.0002799886, z: -0.0000000010838266}
+      rotation: {x: -0.036412284, y: -0.038961627, z: 0.003883706, w: 0.99856955}
+      scale: {x: 0.99623775, y: 1.0188977, z: 0.98491675}
+    - name: DEF-finger013.L
+      parentName: DEF-hand.L
+      position: {x: -0.00041102065, y: 0.00045039708, z: -0.000046160563}
+      rotation: {x: 0.13209839, y: -0.40703708, z: 0.37490338, w: 0.82238585}
+      scale: {x: 1.0030001, y: 0.99797803, z: 0.9990045}
+    - name: DEF-finger014.L
+      parentName: DEF-finger013.L
+      position: {x: 9.49949e-10, y: 0.00039361604, z: 2.0489097e-10}
+      rotation: {x: -0.007940519, y: 0.08229978, z: -0.022390837, w: 0.9963245}
+      scale: {x: 0.9725984, y: 0.9648966, z: 1.0662049}
+    - name: DEF-finger015.L
+      parentName: DEF-finger014.L
+      position: {x: -5.401671e-10, y: 0.00029947527, z: -3.352761e-10}
+      rotation: {x: 0.01891343, y: -0.027956713, z: -0.012821435, w: 0.999348}
+      scale: {x: 1.0297952, y: 0.99286205, z: 0.97880435}
+    - name: DEF-shoulder.R
+      parentName: DEF-Chest
+      position: {x: 0.00042237836, y: 0.0024530052, z: -0.000008561164}
+      rotation: {x: 0.5324374, y: 0.3249124, z: 0.60111815, w: -0.4995992}
+      scale: {x: 0.99991786, y: 1.0000892, z: 1.000097}
+    - name: DEF-arm.R
+      parentName: DEF-shoulder.R
+      position: {x: -0, y: 0.0016787646, z: 5.2386895e-10}
+      rotation: {x: 0.16662039, y: -0.015798328, z: -0.025859248, w: 0.98555535}
+      scale: {x: 0.9995512, y: 0.9973305, z: 1.0033864}
+    - name: DEF-lowerarm.R
+      parentName: DEF-arm.R
+      position: {x: -0, y: 0.003675998, z: -6.3271727e-10}
+      rotation: {x: 0.020155216, y: 0.012894992, z: -0.03790388, w: 0.9989949}
+      scale: {x: 0.99995154, y: 1.0000986, z: 1.00006}
+    - name: DEF-hand.R
+      parentName: DEF-lowerarm.R
+      position: {x: -7.4505804e-11, y: 0.0026843934, z: -8.9057717e-10}
+      rotation: {x: -0.044489425, y: -0.01911846, z: 0.037069596, w: 0.9981388}
+      scale: {x: 0.99707246, y: 1.0120515, z: 0.9911198}
+    - name: DEF-finger01.R
+      parentName: DEF-hand.R
+      position: {x: -0.0004644416, y: 0.001184942, z: 0.000027440698}
+      rotation: {x: -0.0004539452, y: -0.08488888, z: 0.026819652, w: 0.9960294}
+      scale: {x: 0.9917452, y: 1.0068105, z: 1.0016719}
+    - name: DEF-finger02.R
+      parentName: DEF-finger01.R
+      position: {x: 7.4505804e-11, y: 0.00023722604, z: -0.0000000012665987}
+      rotation: {x: -0.040088717, y: -0.08550809, z: 0.012799478, w: 0.99544835}
+      scale: {x: 0.9684689, y: 1.0383911, z: 0.99379146}
+    - name: DEF-finger03.R
+      parentName: DEF-finger02.R
+      position: {x: -1.4901161e-10, y: 0.00023710368, z: 0.0000000012293457}
+      rotation: {x: -0.087554656, y: -0.049083646, z: 0.014014757, w: 0.99485105}
+      scale: {x: 0.9492265, y: 1.0762917, z: 0.97600883}
+    - name: DEF-finger04.R
+      parentName: DEF-hand.R
+      position: {x: -0.00023513546, y: 0.0013518443, z: 0.00008980418}
+      rotation: {x: -0.014458723, y: -0.006574512, z: 0.01537175, w: 0.9997557}
+      scale: {x: 0.998162, y: 1.0032464, z: 0.99866176}
+    - name: DEF-finger05.R
+      parentName: DEF-finger04.R
+      position: {x: -3.7252902e-11, y: 0.00030332405, z: -5.692709e-10}
+      rotation: {x: -0.0326694, y: -0.016957968, z: 0.019009273, w: 0.9991416}
+      scale: {x: 0.9932577, y: 1.0180902, z: 0.98884225}
+    - name: DEF-finger06.R
+      parentName: DEF-finger05.R
+      position: {x: -1.4901161e-10, y: 0.0002554123, z: 0.0000000010570511}
+      rotation: {x: -0.111691855, y: -0.0009628829, z: -0.021566633, w: 0.9935084}
+      scale: {x: 1.0092922, y: 1.0622537, z: 0.9317152}
+    - name: DEF-finger07.R
+      parentName: DEF-hand.R
+      position: {x: 0.00006255479, y: 0.001308803, z: 0.00015309214}
+      rotation: {x: -0.021130752, y: -0.005907915, z: -0.051364478, w: 0.99843895}
+      scale: {x: 1.0021874, y: 0.9990009, z: 0.99892473}
+    - name: DEF-finger08.R
+      parentName: DEF-finger07.R
+      position: {x: -1.8626451e-11, y: 0.00034893418, z: 1.231092e-10}
+      rotation: {x: -0.040250655, y: 0.004829598, z: 0.00073370454, w: 0.99917775}
+      scale: {x: 1.0004791, y: 1.0267313, z: 0.973463}
+    - name: DEF-finger09.R
+      parentName: DEF-finger08.R
+      position: {x: -0, y: 0.0002817183, z: -7.4360285e-10}
+      rotation: {x: -0.01611534, y: 0.019513372, z: -0.0010034371, w: 0.99967927}
+      scale: {x: 0.99879724, y: 1.0138749, z: 0.98724097}
+    - name: DEF-finger010.R
+      parentName: DEF-hand.R
+      position: {x: 0.00038218297, y: 0.0011944778, z: 0.00016760967}
+      rotation: {x: -0.004755157, y: 0.007467145, z: -0.07738441, w: 0.9969621}
+      scale: {x: 1.0044173, y: 0.9972163, z: 0.9985817}
+    - name: DEF-finger011.R
+      parentName: DEF-finger010.R
+      position: {x: 1.5832484e-10, y: 0.0003160445, z: -3.1417585e-10}
+      rotation: {x: -0.04154251, y: 0.015938021, z: 0.0037698904, w: 0.99900246}
+      scale: {x: 1.0021181, y: 1.0093414, z: 0.9885929}
+    - name: DEF-finger012.R
+      parentName: DEF-finger011.R
+      position: {x: 2.4214386e-10, y: 0.0002799891, z: 5.8324073e-10}
+      rotation: {x: -0.036412112, y: 0.03896162, z: -0.0038836238, w: 0.99856955}
+      scale: {x: 0.9965087, y: 1.019762, z: 0.98385715}
+    - name: DEF-finger013.R
+      parentName: DEF-hand.R
+      position: {x: 0.0004110207, y: 0.00045039717, z: -0.000046158293}
+      rotation: {x: 0.1320776, y: 0.40704507, z: -0.37491933, w: 0.8223778}
+      scale: {x: 1.0007967, y: 0.9976374, z: 1.0017841}
+    - name: DEF-finger014.R
+      parentName: DEF-finger013.R
+      position: {x: 7.636845e-10, y: 0.00039361604, z: 1.862645e-10}
+      rotation: {x: -0.007940604, y: -0.08230001, z: 0.022390928, w: 0.9963244}
+      scale: {x: 0.9714939, y: 0.9644138, z: 1.0671818}
+    - name: DEF-finger015.R
+      parentName: DEF-finger014.R
+      position: {x: -1.11758706e-10, y: 0.00029947667, z: -5.2154064e-10}
+      rotation: {x: 0.01891351, y: 0.027956944, z: 0.012821611, w: 0.9993479}
+      scale: {x: 1.0353127, y: 0.99304795, z: 0.9738119}
+    - name: DEF-leg.L
+      parentName: DEF-pelvis
+      position: {x: -0.0011755396, y: 0.00044557158, z: 0.00050747255}
+      rotation: {x: -0.00049176277, y: 0.3629134, z: 0.93182206, w: 0.0011627577}
+      scale: {x: 1.0001261, y: 1.000097, z: 1.0000048}
+    - name: DEF-shin-L
+      parentName: DEF-leg.L
+      position: {x: 8.746951e-11, y: 0.003504744, z: -3.552486e-11}
+      rotation: {x: -0.09919128, y: -0.000012268283, z: 0.00015458924, w: 0.99506843}
+      scale: {x: 1.0001072, y: 1.0002357, z: 0.9999107}
+    - name: DEF-foot.L
+      parentName: DEF-shin-L
+      position: {x: 7.060407e-11, y: 0.0042914352, z: 1.0073563e-10}
+      rotation: {x: 0.5546992, y: -0.00081389496, z: 0.002853839, w: 0.8320457}
+      scale: {x: 0.9998468, y: 0.9983239, z: 1.0015829}
+    - name: DEF-toes.L
+      parentName: DEF-foot.L
+      position: {x: -2.0736479e-11, y: 0.001230857, z: 1.3583303e-11}
+      rotation: {x: 0.26635695, y: -0.00058928656, z: -0.0020932038, w: 0.9638721}
+      scale: {x: 1.000071, y: 1.0168487, z: 0.9835037}
+    - name: DEF-leg.R
+      parentName: DEF-pelvis
+      position: {x: 0.0011755392, y: 0.00044557158, z: 0.0005074734}
+      rotation: {x: 0.0004915749, y: 0.3629134, z: 0.93182206, w: -0.0011626717}
+      scale: {x: 1.0001261, y: 1.0000957, z: 1.0000048}
+    - name: DEF-shin-R
+      parentName: DEF-leg.R
+      position: {x: -4.5528737e-11, y: 0.0035047438, z: 1.3083081e-11}
+      rotation: {x: -0.09919132, y: 0.000012301314, z: -0.0001545985, w: 0.9950684}
+      scale: {x: 1.0000567, y: 1.0001922, z: 0.9999127}
+    - name: DEF-foot.R
+      parentName: DEF-shin-R
+      position: {x: 2.985871e-11, y: 0.004291435, z: -3.958121e-11}
+      rotation: {x: 0.55469906, y: 0.00081389566, z: -0.0028538401, w: 0.83204573}
+      scale: {x: 1.0000308, y: 0.99845546, z: 1.0015993}
+    - name: DEF-toes.R
+      parentName: DEF-foot.R
+      position: {x: 2.5138433e-11, y: 0.001230857, z: -2.3383108e-11}
+      rotation: {x: 0.26635706, y: 0.0005892862, z: 0.0020932048, w: 0.963872}
+      scale: {x: 0.99999565, y: 1.0148878, z: 0.9852287}
+    - name: Hand R Forearm
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.6537293, y: 1.4045184, z: -0.05160621}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Hand R Shoulder
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.3599814, y: 1.4109834, z: -0.059497856}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Hand R Shoulder Up
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.19170897, y: 1.4308021, z: -0.05435845}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Hand R Wrist
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.92498434, y: 1.4032377, z: -0.02279996}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Hand L Forearm
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.653731, y: 1.4045188, z: -0.051601127}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Hand L Shoulder
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.35998133, y: 1.4109832, z: -0.05949784}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Hand L Wrist
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.9249843, y: 1.4032376, z: -0.022799956}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Body Belly
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.00022119499, y: 1.0743623, z: -0.011434812}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Object
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0012630167, y: 1.3332357, z: -0.03331086}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Head
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.0012361729, y: 1.6688205, z: 0.07000167}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Neck
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.0000000057706857, y: 1.5190676, z: -0.03253745}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Legs Foots
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.000000012545572, y: 0.033330474, z: 0.0009978701}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Legs Pants Hips Thighs
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0028461993, y: 0.7834354, z: -0.01808717}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Legs Shin
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.0000000021519737, y: 0.35125273, z: -0.051320013}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Cigar Extras
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.03938083, y: 1.586674, z: 0.1576376}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Tracker2 Extras
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.0762732, y: 1.7070783, z: 0.079064436}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: GrandpasPipe Extras
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.056382407, y: 1.5762931, z: 0.1996106}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Tracker1 Extras
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.06517022, y: 1.7341299, z: 0.08770058}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Cigarete Extras
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.017483776, y: 1.5983824, z: 0.1555719}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: HunterHelm Extras
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0010913454, y: 1.691959, z: 0.0052647097}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: CyborgHelm Extras
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.000077941244, y: 1.6864893, z: 0.00816839}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BlackBikerMask Extras
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.00066835, y: 1.6846555, z: 0.002237149}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BlackBikerMaskWithLight Extras
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.00030433873, y: 1.6854931, z: -0.00036187845}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: AlienHunter Extras
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.00000027692406, y: 1.6803352, z: -0.016394917}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Monocular Glasses & Nose
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.06339212, y: 1.6765243, z: 0.08419634}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MetaverseGlasses Glasses & Nose
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.00017171871, y: 1.6886684, z: 0.038386}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: AviatorSunglasses Glasses & Nose
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.000000085542666, y: 1.6752461, z: 0.109980285}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: NoPee Glasses & Nose
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.000029574709, y: 1.6875709, z: 0.0894253}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: RobocopGlasses Glasses & Nose
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.00002957826, y: 1.6851741, z: 0.0802849}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BugEyeGlasses Glasses & Nose
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.000093514114, y: 1.6927966, z: 0.105468936}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: RobotEye Glasses & Nose
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.035107005, y: 1.6937097, z: 0.10309152}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Original Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.001440588, y: 1.7509913, z: -0.03742969}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: PeakyBlinders Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.001065423, y: 1.8007122, z: -0.033536263}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: OranggePunk Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.00034802424, y: 1.8237339, z: -0.025269775}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: PeakyBlindersBlack Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.0010308236, y: 1.800018, z: -0.03459893}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: GreenPunk Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.00034802424, y: 1.8237339, z: -0.025269775}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: GrayPunk Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.00034802424, y: 1.8237339, z: -0.025269775}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: YellowPunk Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.00034802424, y: 1.8237339, z: -0.025269775}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BluePunk Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.00034802424, y: 1.8237339, z: -0.025269775}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BlackPunk Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.00034802424, y: 1.8237339, z: -0.025269775}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: RedPunk Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.00034802424, y: 1.8237339, z: -0.025269775}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: CrewCut Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.011162679, y: 1.8030909, z: -0.020267587}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: GingerDread Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0010148983, y: 1.8138956, z: -0.016048256}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BlackCrewCut Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.011151561, y: 1.8031132, z: -0.02034398}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BlackCombOver Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.008069407, y: 1.8009475, z: -0.022053048}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BlackSnapBack Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.00029421452, y: 1.7514349, z: -0.057844646}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: RedSnapBack Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.00029421892, y: 1.7514349, z: -0.05784466}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: SteelPlate Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.000000001977768, y: 1.8028299, z: -0.02792762}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BlackPlate Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.000000010023574, y: 1.80283, z: -0.027928567}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TopKnot Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.003252217, y: 1.8147787, z: -0.03400096}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: ManBun Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0012724015, y: 1.7599397, z: -0.058950517}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TopKnotBlack Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.003252217, y: 1.8147787, z: -0.03400096}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: ManBunBlack Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.001302613, y: 1.759908, z: -0.05894866}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: GrayHair Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.0002824752, y: 1.7937837, z: -0.024975853}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: ArmyMan Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.00000014217227, y: 1.8062009, z: -0.026234992}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BlackArmyMan Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.00000014217227, y: 1.8062009, z: -0.026234992}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: VioletPunk Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.00034802424, y: 1.8237339, z: -0.025269775}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: FauxHawk Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.009472926, y: 1.799012, z: -0.02159471}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: FringeUp Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.000617221, y: 1.7934936, z: 0.01927483}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: ExCyborg Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.0004776316, y: 1.8059529, z: -0.015098509}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Salamander Hair Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.00011694841, y: 1.7992179, z: -0.036746606}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Salamander Black
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.00011158872, y: 1.7989258, z: -0.036880195}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: CombOver Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.008069412, y: 1.8009474, z: -0.02205305}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: FrenchCrop Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0010599656, y: 1.8062164, z: 0.03053245}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: SmoothLikeButter Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.00022859941, y: 1.7937967, z: -0.02125506}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: SmoothLikeButterBlack Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.00022859941, y: 1.7937967, z: -0.02125506}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BlackDread Hair
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0010148983, y: 1.8138956, z: -0.016048256}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: YellowEyes
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0000002865758, y: 1.6813753, z: 0.07968809}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: PinkEyes
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0000002865758, y: 1.6813753, z: 0.07968809}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: OrangeEyes
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0000002865758, y: 1.6813753, z: 0.07968809}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: LoverBoyEyes
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0000002865758, y: 1.6813753, z: 0.07968809}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: LightGreenEyes
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0000002865758, y: 1.6813753, z: 0.07968809}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: LightOrangeEyes
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.00000028259223, y: 1.6813749, z: 0.07968808}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: GreenEyes
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0000002865758, y: 1.6813753, z: 0.07968809}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BlueEyes
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0000002865758, y: 1.6813753, z: 0.07968809}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: GoldenEyes
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0000002865758, y: 1.6813753, z: 0.07968809}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BlindEyes
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0000002865758, y: 1.6813753, z: 0.07968809}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: WhiteEyes
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0000002865758, y: 1.6813753, z: 0.07968809}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: VioletEyes
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0000002865758, y: 1.6813753, z: 0.07968809}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TruqEyes
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0000002865758, y: 1.6813753, z: 0.07968809}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: RedEyes
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0000002865758, y: 1.6813753, z: 0.07968809}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Void Precious Things
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.09698994, y: 1.6484628, z: -0.020953553}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BTC Precious Things
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0006451131, y: 1.4324292, z: 0.0488487}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: PinkyOne Precious Things
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.09909035, y: 1.6489074, z: -0.020037059}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: ObsidianRing Precious Things
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.9697948, y: 1.4157019, z: 0.013363188}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: GoldRing Precious Things
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.9702054, y: 1.4174856, z: 0.013596432}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: NoseBullRing Precious Things
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.00005712833, y: 1.6235397, z: 0.12898299}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Rollex Precious Things
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: OuterSpaceNecklace Precious Things
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.00016430634, y: 1.4647737, z: 0.010853473}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: NeonBand Precious Things
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: LightLineNecklace Precious Things
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.0001838747, y: 1.4781756, z: -0.0037317546}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: HangTriangle Precious Things
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.09750056, y: 1.612374, z: -0.019509291}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: GoldChain Precious Things
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0010271453, y: 1.456607, z: 0.024247736}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: ETH Precious Things
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0006957384, y: 1.4352964, z: 0.046351027}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: EarBadge Precious Things
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.10024566, y: 1.6488049, z: -0.019461146}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: DogTags Precious Things
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0025557494, y: 1.4339259, z: 0.04050834}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: XEarPiece Precious Things
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.10024279, y: 1.648805, z: -0.019462636}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: WristBand Precious Things
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Yellow Void Precious Things
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.09698994, y: 1.6484628, z: -0.020953553}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TurqEarPiece Precious Things
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.09830357, y: 1.648678, z: -0.020059528}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: SmartWatch Precious Things
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: SilverRing Precious Things
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.9702114, y: 1.4176788, z: 0.013600691}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: ShinyBullRing Precious Things
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0007582542, y: 1.6220509, z: 0.12726872}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: SpecialOne Precious Things
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.22623378, y: 1.5391535, z: -0.00081488636}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: HalloWatch Precious Things
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: ShieldChain Precious Things
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.00073093956, y: 1.4860071, z: -0.014264963}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: UMChain Precious Things
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.0005556985, y: 1.4961572, z: -0.031973734}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Eye Scar DONE Tattos & Piercings
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.043195456, y: 1.6916778, z: 0.10192089}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Piercings2 DONE Tattos & Piercings
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.0075661675, y: 1.65735, z: 0.1179388}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Piercings1 DONE Tattos & Piercings
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.08254564, y: 1.665472, z: -0.009699296}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: ChestScar Tattos & Piercings
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.07331558, y: 1.3989917, z: 0.0901707}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Triangard Tattos & Piercings
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.6040775, y: 1.3674417, z: -0.052086752}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BlackBalbo Beard
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.000033945955, y: 1.5619332, z: 0.10178254}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BlackCircle Beard
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.00012582631, y: 1.5608876, z: 0.09223977}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BlackDuckTail Beard
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.000693688, y: 1.578299, z: 0.0695475}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BlackExtendedGoatee Beard
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.00025030566, y: 1.560232, z: 0.072021976}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BlackFrenchFork Beard
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.000095127194, y: 1.5843356, z: 0.061527714}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 'BlackFull Beard '
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.00071456935, y: 1.5837666, z: 0.06437288}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BlackImperial Beard
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0009871792, y: 1.584948, z: 0.06726212}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BlackLight Beard
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0012129381, y: 1.5867887, z: 0.060064867}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BlackMexicana Beard
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.000077480305, y: 1.6006978, z: 0.1113327}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BlackMustachio Beard
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.00017174726, y: 1.6093583, z: 0.11571235}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BlackWinter Beard
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.00005924511, y: 1.5863936, z: 0.06506038}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BrownBalbo Beard
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.000033945955, y: 1.5619332, z: 0.10178254}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BrownCircle Beard
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.00012582631, y: 1.5608876, z: 0.09223977}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BrownDuckTail Beard
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.000693688, y: 1.578299, z: 0.0695475}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BrownFrenchFork Beard
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.000095127194, y: 1.5843356, z: 0.061527714}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BrownFull Beard
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0009340056, y: 1.5839393, z: 0.06434061}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BrownImperial Beard
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0009871792, y: 1.584948, z: 0.06726212}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 'BrownLight Beard '
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0012129381, y: 1.5867887, z: 0.060064867}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BrownMexicana Beard
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.000077480305, y: 1.6006978, z: 0.1113327}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BrownMustachio Beard
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.00017174726, y: 1.6093583, z: 0.11571235}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BrownMuttonChops Beard
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.00009235734, y: 1.5922867, z: 0.054115966}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BrownWinter Beard
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.00005924511, y: 1.5863936, z: 0.06506038}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: ExtendedGoatee Beard
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.00025030566, y: 1.560232, z: 0.072021976}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Implant Beard
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.000000063570006, y: 1.6106561, z: 0.059905484}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: NewAgeBlack Beard
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.00008781988, y: 1.5874974, z: 0.060878947}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Leather Jacket Top
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.0015278445, y: 1.3264977, z: -0.040079243}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: OldTrusteeJacket Top
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0010861591, y: 1.2070205, z: -0.032745156}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: LeatherVest Top
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.0021388999, y: 1.2201262, z: -0.019405477}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Suit Top
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.0012070093, y: 1.3159148, z: -0.0364984}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BandoleerVest Top
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.037238263, y: 1.2983695, z: -0.02286062}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: WinterBeater Top
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.00054783747, y: 1.2902355, z: -0.031233927}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: NeonJacket Top
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.0034419084, y: 1.2968202, z: -0.03793788}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: SpaceSuit Top
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.0005096361, y: 1.3058006, z: -0.029832937}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Black Ranger Jacket Top
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.00007034919, y: 1.3081392, z: -0.044670317}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Trooper Jacket Top
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.00904654, y: 1.3472476, z: -0.04292029}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: HustlerJacket Top
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.022102837, y: 1.3467801, z: -0.046443723}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Green Ranger Jacket Top
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.00007068697, y: 1.308547, z: -0.044759613}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Red Ranger Jacket Top
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.002793834, y: 1.3089945, z: -0.04477423}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: RedHoodie Top
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.0048516965, y: 1.3196664, z: -0.037670936}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BlackHoodie Top
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0013319713, y: 1.3194032, z: -0.0376843}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BlueHoodie Top
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0013319713, y: 1.3194032, z: -0.0376843}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: GrayHoodie Top
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0013319713, y: 1.3194032, z: -0.0376843}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: GreenHoodie Top
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0013319713, y: 1.3194032, z: -0.0376843}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: GreenSleeveless Tops
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0000000049277444, y: 1.2427529, z: -0.02416067}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: DoRacTShirt Tops
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0016876786, y: 1.2884336, z: -0.03935472}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: DoRacPhantomBlack Tops
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0030360543, y: 1.2492363, z: -0.032697774}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BlueSleeveless Tops
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.00007934274, y: 1.2422428, z: -0.024200749}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BlueTShirt Tops
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.00010079353, y: 1.290012, z: -0.033304013}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BlackSleeveless Tops
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.00000001563571, y: 1.2425375, z: -0.024244439}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BlackShirt Tops
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.00000018656137, y: 1.3121355, z: -0.037691943}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 3StripeShirt Tops
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.000021057996, y: 1.2917318, z: -0.034423452}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: RedSleveless Tops
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.00007041845, y: 1.2426938, z: -0.024511086}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: OrangeSleeveless Tops
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0000000049277444, y: 1.2427529, z: -0.02416067}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: GraySleveless Tops
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0000000049277444, y: 1.2427529, z: -0.02416067}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: WhiteWifeBeater Tops
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.000056952194, y: 1.228444, z: -0.027840268}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: WildWife Tops
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.0016263018, y: 1.2399169, z: -0.032739136}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Vanish Tops
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.00004830724, y: 1.2900529, z: -0.033411793}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BlackTShirt Tops
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.00010079353, y: 1.290012, z: -0.033304013}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: OrangeTShirt.001 Tops
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.00010079353, y: 1.290012, z: -0.033304013}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: RedTShirt.001 Tops
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.00010079353, y: 1.290012, z: -0.033304013}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: GreenTShirt.001 Tops
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.00010079353, y: 1.290012, z: -0.033304013}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: GrayTShirt.001 Tops
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.00010079353, y: 1.290012, z: -0.033304013}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Gen X Palm
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.88664365, y: 1.4110769, z: -0.02918614}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Gen X Shoulder
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.22004934, y: 1.4410653, z: -0.058645796}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Gen X Upper Arm
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.38132197, y: 1.4036202, z: -0.050358865}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Gen X Lower Arm
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.5991318, y: 1.4066769, z: -0.052939992}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: LeDoctor Palm
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.92941636, y: 1.4030125, z: -0.022578575}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: LeDoctor Shoulder
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.22767703, y: 1.4356958, z: -0.054990724}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: LeDoctor Upper Arm
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.41189688, y: 1.4193237, z: -0.057453465}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: LeDeoctor Lower Arm
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.65016884, y: 1.4066916, z: -0.051027946}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Golden Boy Palm
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.9272744, y: 1.4030148, z: -0.022774227}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Golden Boy Shoulder
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.20043652, y: 1.4388365, z: -0.050485395}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Golden Boy upper Arm
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.41944796, y: 1.4111123, z: -0.054794267}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Golden Boy Joint Elbow
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.5582364, y: 1.4045402, z: -0.052277565}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Golden BOy Lower Arm
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.68441415, y: 1.4114927, z: -0.05123391}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Cyborg Yellow Palm
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.9161817, y: 1.4036691, z: -0.024084512}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Cyborg Yello Arm Shoulder
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.24714492, y: 1.4323509, z: -0.059951067}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Cyborg Yellow  Upper Arm
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.41009364, y: 1.4131896, z: -0.06576123}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Cyborg Yello Arm Joint Elbow
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.5217218, y: 1.4118533, z: -0.046421345}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Cyborg Yello Arm Lower Arm
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.6664273, y: 1.4126228, z: -0.04569326}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Smooth Arm Palm
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.8830445, y: 1.4039537, z: -0.026702007}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Smooth Arm Shoulder
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.25045717, y: 1.4380604, z: -0.06273524}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Smooth Arm Upper Arm
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.43143943, y: 1.4158871, z: -0.062986165}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Smooth Arm Lower Arm
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.59620297, y: 1.4121791, z: -0.05615506}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: High Roller Arm Palm
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.8788777, y: 1.4042381, z: -0.030831315}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: High Roller Arm Shoulder
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.25089648, y: 1.4783276, z: -0.06008578}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: High Roller Arm Upper Arm
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.41556343, y: 1.4147865, z: -0.06212158}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: High Roller Arm Lower Arm
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.612962, y: 1.412534, z: -0.04856561}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Gen1 Upper Arm
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.36623588, y: 1.4200442, z: -0.060143955}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Gen1 Palm
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.9183683, y: 1.4050976, z: -0.027959095}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Gen1 Lower Arm
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.6646059, y: 1.4127213, z: -0.04935262}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Gen1 Shoulders
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.18330535, y: 1.4567976, z: -0.051455095}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Red Cyborg Upper Arm
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Red Cyborg Arm Palm
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Red Cyborg Chest
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Red Cyborg Fore Arm
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: White Cyborg Upper Arm
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: White Cyborg Arm Hand
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: White Cyborg Chest
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: White Cyborg Fore Arm
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Yellow Cyborg Upper Arm
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Yellow Cyborg Arm Hand
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Yellow Cyborg Chest
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Yellow Cyborg Fore Arm
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Gen 2 Upper Arm
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.3696001, y: 1.4153036, z: -0.058956236}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Gen2 Hand
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.8804396, y: 1.3964169, z: -0.027203383}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Gen 2 Pipes
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.44780993, y: 1.4384103, z: -0.11266771}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Gen 2 Forearm
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.5530975, y: 1.4068464, z: -0.059796374}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Gen 2UpperArmToShoulder
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.24119224, y: 1.4191787, z: -0.047124896}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Black Pants
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.000032502652, y: 0.5963041, z: -0.032380614}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Blue Pants
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.00015229292, y: 0.59616166, z: -0.032384984}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Suit Pants
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.00018743641, y: 0.5918244, z: -0.03403255}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Mercenary Red Pants
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.000018324514, y: 0.5891479, z: -0.032461174}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Mercenary Green Pants
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.000018028008, y: 0.5890389, z: -0.032651685}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Mercenary Black Pants
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.000012021543, y: 0.5889937, z: -0.032533925}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BlackWithStraps Pants
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.00016060028, y: 0.6134426, z: -0.03233937}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Cargo X Pants
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.010420532, y: 0.79477835, z: 0.008204902}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Gangster Pants
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0010638223, y: 0.6319512, z: -0.026058607}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Gecci Pants
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.0010339278, y: 0.598004, z: -0.03032348}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Yellow Modern Pants
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.00020717045, y: 0.83264226, z: 0.02831919}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Cargo Load Pants
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.0000029738462, y: 0.6872148, z: 0.0045638885}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Turq Pants
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.00015990752, y: 0.5968114, z: -0.0323241}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Red Modern Pants
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.00020717077, y: 0.83264226, z: 0.028319187}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Ranger Black Pants
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.00011406258, y: 0.62585175, z: -0.022329494}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Ranger Violet Pants
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.00012380705, y: 0.6258216, z: -0.022333404}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Ranger Red Pants
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.000103073704, y: 0.6252015, z: -0.022413842}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Ranger Blue Pants
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0.00006784545, y: 0.6258399, z: -0.022331016}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Boots Brown
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Boots BLack
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.00071153947, y: 0.08783538, z: -0.02357581}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Halo
+      parentName: ModularCharacterEverything(Clone)
+      position: {x: 0.0009539908, y: 1.9608608, z: -0.010952478}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
