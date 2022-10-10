@@ -252,11 +252,11 @@ public class NewDownLoadsCheck : MonoBehaviour
             webClient.DownloadProgressChanged += (s, e) =>
             {
                 int i = 0;
-                if (Directory.Exists(rootPath + "\\NewGame-main") && i == 0)
+                if (Directory.Exists(rootPath + "\\VBuild") && i == 0)
                 {
                     i++;
-                    Directory.Delete(rootPath + "\\NewGame-main", true);
-                    UnityEngine.Debug.Log("File Exits" + rootPath + "\\NewGame-main");
+                    Directory.Delete(rootPath + "\\Build", true);
+                    UnityEngine.Debug.Log("File Exits" + rootPath + "\\Build");
                 }
 
                 double totalMB = (bytes_total / 1000000);
