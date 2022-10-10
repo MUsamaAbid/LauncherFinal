@@ -9107,7 +9107,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: News Feed
+  m_Text: News Feed.
 --- !u!222 &880502897
 CanvasRenderer:
   m_ObjectHideFlags: 0
