@@ -26,9 +26,9 @@ public class NewDownLoadsCheck : MonoBehaviour
     public Text DownloadingStatus;
 
     [Header("For Checking Updates")]
-    string gameName = "\\NewGame-main\\Build.exe";
+    string gameName = "\\Build\\Build.exe";
     string versionLink = "https://drive.google.com/uc?export=download&id=1WHxJEZPBpdjLKimT3PiIvRl2FjD7MlYo";
-    string buildLink = "https://github.com/DoRacOfficial/GameBuildForLauncher/archive/refs/heads/Build.zip";
+    string buildLink = "https://github.com/DoRacOfficial/GameBuildForLauncher/raw/main/Build.zip";
     private string rootPath;
     private string versionFile;
     private string gameZip;
