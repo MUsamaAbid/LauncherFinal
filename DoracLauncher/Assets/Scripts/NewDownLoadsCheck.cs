@@ -58,12 +58,12 @@ public class NewDownLoadsCheck : MonoBehaviour
         gameExe = Path.Combine(rootPath, "Build", gameName);
         mainProgressBar.SetActive(false);
 
-        if (!Directory.Exists(rootPath + "\\NewGame-main\\") && PlayerPrefs.GetInt("IsFirst", 0) == 0)
+        if (!Directory.Exists(rootPath + "\\Build\\") && PlayerPrefs.GetInt("IsFirst", 0) == 0)
         {
             browserBtn.SetActive(true);
         }
 
-        if (PlayerPrefs.GetInt("IsFirst") == 1 || (Directory.Exists(rootPath + "\\NewGame-main") && PlayerPrefs.GetInt("IsFirst", 0) == 0))
+        if (PlayerPrefs.GetInt("IsFirst") == 1 || (Directory.Exists(rootPath + "\\Build") && PlayerPrefs.GetInt("IsFirst", 0) == 0))
         {
             CheckForUpdates();
         }
