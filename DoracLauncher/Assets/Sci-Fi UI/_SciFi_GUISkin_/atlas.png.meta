@@ -311,7 +311,7 @@ TextureImporter:
         height: 998
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 12, y: 20, z: 14, w: 17}
       outline: []
       physicsShape: []
       tessellationDetail: -1
@@ -329,10 +329,10 @@ TextureImporter:
         x: 3933
         y: 3037
         width: 84
-        height: 1027
+        height: 1031
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 21, y: 28, z: 21, w: 43}
       outline: []
       physicsShape: []
       tessellationDetail: -1
@@ -557,13 +557,13 @@ TextureImporter:
       name: progress_bar
       rect:
         serializedVersion: 2
-        x: 2005
+        x: 1997
         y: 2141
-        width: 998
-        height: 56
+        width: 1006
+        height: 59
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 20, y: 20, z: 20, w: 20}
+      border: {x: 38, y: 20, z: 57, w: 20}
       outline: []
       physicsShape: []
       tessellationDetail: -1
