@@ -29,6 +29,7 @@ public class NewDownLoadsCheck : MonoBehaviour
     string gameName = "\\Build\\Build.exe";
     string versionLink = "https://drive.google.com/uc?export=download&id=1WHxJEZPBpdjLKimT3PiIvRl2FjD7MlYo";
     string buildLink = "https://github.com/DoRacOfficial/GameBuildForLauncher/raw/main/Build.zip";
+    //string buildLink = "https://github.com/Shais24/NewGame/archive/refs/heads/main.zip";
     private string rootPath;
     private string versionFile;
     private string gameZip;
@@ -40,6 +41,8 @@ public class NewDownLoadsCheck : MonoBehaviour
         browserBtn.SetActive(false);
         playBtn.SetActive(false);
         restartTxt.gameObject.SetActive(false);
+
+        //PlayerPrefs.SetInt("IsFirst", 0);
         if (PlayerPrefs.GetString("StoreFolder", null) == "")
         {
             rootPath = Directory.GetCurrentDirectory();
@@ -58,9 +61,17 @@ public class NewDownLoadsCheck : MonoBehaviour
         gameExe = Path.Combine(rootPath, "Build", gameName);
         mainProgressBar.SetActive(false);
 
-        if (!Directory.Exists(rootPath + "\\Build\\") && PlayerPrefs.GetInt("IsFirst", 0) == 0)
+        UnityEngine.Debug.Log("test: "+ rootPath + "\\Build\\");
+        if (!Directory.Exists(rootPath + "\\Build\\") /*&& PlayerPrefs.GetInt("IsFirst", 0) == 0*/)
         {
+            PlayerPrefs.SetInt("IsFirst", 0);
             browserBtn.SetActive(true);
+
+            if (PlayerPrefs.GetInt("IsFirst", 0) == 0)
+            {
+                
+            }
+
         }
 
         if (PlayerPrefs.GetInt("IsFirst") == 1 || (Directory.Exists(rootPath + "\\Build") && PlayerPrefs.GetInt("IsFirst", 0) == 0))
@@ -161,6 +172,11 @@ public class NewDownLoadsCheck : MonoBehaviour
         UnityEngine.Debug.Log("RootFoolder: " + Environment.SpecialFolder.ApplicationData);
         if (dlg.ShowDialog() == DialogResult.OK)
         {
+            if(!Directory.Exists(rootPath + "\\Build\\"))
+            {
+                Directory.CreateDirectory(rootPath + "\\Build\\");
+            }
+
             UnityEngine.Debug.Log("ok");
             //rootPath = dlg.SelectedPath;
             PlayerPrefs.SetString("StoreFolder", dlg.SelectedPath);
@@ -336,6 +352,16 @@ public class NewDownLoadsCheck : MonoBehaviour
         UnityEngine.Application.Quit();
     }
 
+    public void RestGame()
+    {
+        if(Directory.Exists(rootPath + "\\Build\\"))
+        {
+            Directory.Delete(rootPath + "\\Build\\");
+            PlayerPrefs.SetInt("IsFirst", 1);
+
+            UnityEngine.Debug.Log("Rest Successfully " + rootPath);
+        }
+    }
 }
 struct Version
 {
