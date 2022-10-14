@@ -206,7 +206,7 @@ public class NewDownLoadsCheck : MonoBehaviour
             browserBtn.SetActive(false);
 
             restartTxt.gameObject.SetActive(true);
-            restartTxt.text = "Restart Required";
+            restartTxt.text = "Please CLOSE & ReOPEN LAUNCHER!";
         }
         else
         {
