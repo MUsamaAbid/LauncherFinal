@@ -13048,8 +13048,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1124163096}
   m_HandleRect: {fileID: 1124163095}
   m_Direction: 3
-  m_Value: 0.99999374
-  m_Size: 0.27047637
+  m_Value: 0.9999938
+  m_Size: 0.27068523
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -13150,6 +13150,7 @@ MonoBehaviour:
   downloadingMB: {fileID: 372175903}
   totalDownloadSize: {fileID: 1301208608}
   DownloadingStatus: {fileID: 741029288}
+  FileLocaitonNotSet: {fileID: 1974958395}
 --- !u!4 &1279981397 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4460978187948632, guid: 2f076649d2f4b764fb20940474ccde13, type: 3}

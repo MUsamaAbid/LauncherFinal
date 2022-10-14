@@ -24,6 +24,7 @@ public class NewDownLoadsCheck : MonoBehaviour
     public Text downloadingMB;
     public Text totalDownloadSize;
     public Text DownloadingStatus;
+    public Text FileLocaitonNotSet;
 
     [Header("For Checking Updates")]
     string gameName = "\\Build\\Build.exe";
@@ -37,6 +38,7 @@ public class NewDownLoadsCheck : MonoBehaviour
 
     private void Start()
     {
+       
         progressBar.fillAmount = 0;
         browserBtn.SetActive(false);
         playBtn.SetActive(false);
@@ -56,6 +58,7 @@ public class NewDownLoadsCheck : MonoBehaviour
         }
         //File.Delete(gameZip);
 
+
         versionFile = Path.Combine(rootPath, "Version.txt");
         gameZip = Path.Combine(rootPath, "Build.zip");
         gameExe = Path.Combine(rootPath, "Build", gameName);
@@ -67,10 +70,17 @@ public class NewDownLoadsCheck : MonoBehaviour
             PlayerPrefs.SetInt("IsFirst", 0);
             browserBtn.SetActive(true);
 
-            if (PlayerPrefs.GetInt("IsFirst", 0) == 0)
+            if(File.Exists(rootPath + "\\Version.txt"))
             {
-                
+                File.Delete(rootPath + "\\Version.txt");
             }
+            
+            if(File.Exists(rootPath + "Version.txt"))
+            {
+                File.Delete(rootPath + "Version.txt");
+            }
+           
+            FileLocaitonNotSet.gameObject.SetActive(true);
 
         }
 
@@ -78,7 +88,14 @@ public class NewDownLoadsCheck : MonoBehaviour
         {
             CheckForUpdates();
         }
-
+        if (PlayerPrefs.GetInt("IsFirst", 0) == 0)
+        {
+            FileLocaitonNotSet.gameObject.SetActive(true);
+        }
+        else
+        {
+            FileLocaitonNotSet.gameObject.SetActive(false);
+        }
     }
 
 
@@ -172,7 +189,9 @@ public class NewDownLoadsCheck : MonoBehaviour
         UnityEngine.Debug.Log("RootFoolder: " + Environment.SpecialFolder.ApplicationData);
         if (dlg.ShowDialog() == DialogResult.OK)
         {
-            if(!Directory.Exists(rootPath + "\\Build\\"))
+            FileLocaitonNotSet.gameObject.SetActive(false);
+
+            if (!Directory.Exists(rootPath + "\\Build\\"))
             {
                 Directory.CreateDirectory(rootPath + "\\Build\\");
             }
@@ -181,6 +200,7 @@ public class NewDownLoadsCheck : MonoBehaviour
             //rootPath = dlg.SelectedPath;
             PlayerPrefs.SetString("StoreFolder", dlg.SelectedPath);
             rootPath = PlayerPrefs.GetString("StoreFolder");
+
             PlayerPrefs.SetInt("IsFirst", 1);
             UnityEngine.Debug.Log(dlg.SelectedPath);
             browserBtn.SetActive(false);
