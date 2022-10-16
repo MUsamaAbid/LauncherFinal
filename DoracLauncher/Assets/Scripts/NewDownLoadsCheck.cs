@@ -25,6 +25,7 @@ public class NewDownLoadsCheck : MonoBehaviour
     public Text totalDownloadSize;
     public Text DownloadingStatus;
     public Text FileLocaitonNotSet;
+    public Text DownloadingPercentage;
 
     [Header("For Checking Updates")]
     string gameName = "\\Build\\Build.exe";
@@ -35,6 +36,8 @@ public class NewDownLoadsCheck : MonoBehaviour
     private string versionFile;
     private string gameZip;
     private string gameExe;
+
+    int DownloadedPercentage;
 
     private void Start()
     {
@@ -191,6 +194,9 @@ public class NewDownLoadsCheck : MonoBehaviour
         {
             FileLocaitonNotSet.gameObject.SetActive(false);
 
+            PlayerPrefs.SetString("StoreFolder", dlg.SelectedPath);
+            rootPath = PlayerPrefs.GetString("StoreFolder");
+
             if (!Directory.Exists(rootPath + "\\Build\\"))
             {
                 Directory.CreateDirectory(rootPath + "\\Build\\");
@@ -305,6 +311,7 @@ public class NewDownLoadsCheck : MonoBehaviour
                 //ProgressBar
                 downloadingMB.text = recivedMB + " MB";
                 totalDownloadSize.text = totalMB + " MB";
+                DownloadingPercentage.text = (Math.Round((recivedMB / totalMB) * 100)).ToString() + "%";
                 progressBar.fillAmount = (float)(recivedMB / totalMB);
             };
         }
