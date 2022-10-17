@@ -360,6 +360,7 @@ public class NewDownLoadsCheck : MonoBehaviour
         {
             CheckForUpdates();
         }
+        UnityEngine.Application.Quit();
     }
 
     public void RestartGame()
