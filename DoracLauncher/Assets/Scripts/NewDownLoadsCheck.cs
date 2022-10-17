@@ -37,11 +37,8 @@ public class NewDownLoadsCheck : MonoBehaviour
     private string gameZip;
     private string gameExe;
 
-    int DownloadedPercentage;
-
     private void Start()
     {
-       
         progressBar.fillAmount = 0;
         browserBtn.SetActive(false);
         playBtn.SetActive(false);
