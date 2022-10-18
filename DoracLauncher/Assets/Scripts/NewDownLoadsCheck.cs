@@ -1,6 +1,5 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.IO;
@@ -8,9 +7,8 @@ using System.IO.Compression;
 using System.Net;
 using UnityEngine;
 using UnityEngine.UI;
-using AnotherFileBrowser.Windows;
-using System.Windows.Forms;
 using UnityEngine.SceneManagement;
+using Crosstales.FB;
 
 public class NewDownLoadsCheck : MonoBehaviour
 {
@@ -83,7 +81,7 @@ public class NewDownLoadsCheck : MonoBehaviour
             FileLocaitonNotSet.gameObject.SetActive(true);
 
         }
-
+        
         if (PlayerPrefs.GetInt("IsFirst") == 1 || (Directory.Exists(rootPath + "\\Build") && PlayerPrefs.GetInt("IsFirst", 0) == 0))
         {
             CheckForUpdates();
@@ -96,6 +94,8 @@ public class NewDownLoadsCheck : MonoBehaviour
         {
             FileLocaitonNotSet.gameObject.SetActive(false);
         }
+
+
     }
 
 
@@ -144,54 +144,14 @@ public class NewDownLoadsCheck : MonoBehaviour
 
     public void OpenFileBrowser()
     {
-        FolderBrowserDialog dlg = new FolderBrowserDialog();
-        //OpenFileDialog dlg = new OpenFileDialog();
+        UnityEngine.Debug.Log("Folder Select Successfully" + rootPath);
+        string thisPath = FileBrowser.Instance.OpenSingleFolder("Folder Selector", rootPath);
 
-        /*dlg.InitialDirectory = rootPath;
-        dlg.ValidateNames = false;
-        dlg.CheckFileExists = false;
-        
-        dlg.FileName = "Folder Selection.";
-
-        PlayerPrefs.SetInt("IsFirst", 1);
-         if (dlg.ShowDialog() == DialogResult.OK)
-         {
-             UnityEngine.Debug.Log("ok");
-             //rootPath = dlg.SelectedPath;
-             PlayerPrefs.SetString("StoreFolder", dlg.InitialDirectory);
-             rootPath = PlayerPrefs.GetString("StoreFolder");
-            PlayerPrefs.SetInt("IsFirst", 1);
-             UnityEngine.Debug.Log(dlg.InitialDirectory);
-            browserBtn.SetActive(false);
-            
-            restartTxt.gameObject.SetActive(true);
-            restartTxt.text = "Restart Required";
-        }
-        else
-         {
-             UnityEngine.Debug.Log("cancel");
-             if (PlayerPrefs.GetString("StoreFolder", null) == "")
-             {
-                 rootPath = Directory.GetCurrentDirectory();
-                 UnityEngine.Debug.Log("if rootPah: " + rootPath);
-                PlayerPrefs.SetInt("IsFirst", 1);
-            }
-             else
-             {
-                 rootPath = PlayerPrefs.GetString("StoreFolder");
-                 UnityEngine.Debug.Log("else rootPah: " + rootPath);
-                PlayerPrefs.SetInt("IsFirst", 1);
-            }
-         }*/
-
-        dlg.SelectedPath = rootPath;
-
-        UnityEngine.Debug.Log("RootFoolder: " + Environment.SpecialFolder.ApplicationData);
-        if (dlg.ShowDialog() == DialogResult.OK)
+        if(thisPath != "")
         {
             FileLocaitonNotSet.gameObject.SetActive(false);
 
-            PlayerPrefs.SetString("StoreFolder", dlg.SelectedPath);
+            PlayerPrefs.SetString("StoreFolder", thisPath);
             rootPath = PlayerPrefs.GetString("StoreFolder");
 
             if (!Directory.Exists(rootPath + "\\Build\\"))
@@ -201,11 +161,11 @@ public class NewDownLoadsCheck : MonoBehaviour
 
             UnityEngine.Debug.Log("ok");
             //rootPath = dlg.SelectedPath;
-            PlayerPrefs.SetString("StoreFolder", dlg.SelectedPath);
+            PlayerPrefs.SetString("StoreFolder", thisPath);
             rootPath = PlayerPrefs.GetString("StoreFolder");
 
             PlayerPrefs.SetInt("IsFirst", 1);
-            UnityEngine.Debug.Log(dlg.SelectedPath);
+            UnityEngine.Debug.Log(thisPath);
             browserBtn.SetActive(false);
 
             restartTxt.gameObject.SetActive(true);
@@ -229,7 +189,64 @@ public class NewDownLoadsCheck : MonoBehaviour
         }
     }
 
+    /*IEnumerator ShowLoadDialogCoroutine()
+    {
+        // Show a load file dialog and wait for a response from user
+        // Load file/folder: both, Allow multiple selection: true
+        // Initial path: default (Documents), Initial filename: empty
+        // Title: "Load File", Submit button text: "Load"
+        yield return FileBrowser.WaitForLoadDialog(FileBrowser.PickMode.Folders*//*.FilesAndFolders*//*, false, Application.dataPath, null, "Select Folder", "Save");
 
+        // Dialog is closed
+        // Print whether the user has selected some files/folders or cancelled the operation (FileBrowser.Success)
+        UnityEngine.Debug.Log(FileBrowser.Success);
+        if (FileBrowser.Success)
+        {
+            UnityEngine.Debug.Log("Folder Select Successfully");
+            UnityEngine.Debug.Log("New Path: " + FileBrowser.Result[0]);
+        }
+       *//* if (FileBrowser.Success)
+        {
+            FileLocaitonNotSet.gameObject.SetActive(false);
+
+            PlayerPrefs.SetString("StoreFolder", FileBrowser.Result[0]);
+            rootPath = PlayerPrefs.GetString("StoreFolder");
+
+            if (!Directory.Exists(rootPath + "\\Build\\"))
+            {
+                Directory.CreateDirectory(rootPath + "\\Build\\");
+            }
+
+            UnityEngine.Debug.Log("ok");
+            //rootPath = dlg.SelectedPath;
+            PlayerPrefs.SetString("StoreFolder", FileBrowser.Result[0]);
+            rootPath = PlayerPrefs.GetString("StoreFolder");
+
+            PlayerPrefs.SetInt("IsFirst", 1);
+            UnityEngine.Debug.Log(FileBrowser.Result[0]);
+            browserBtn.SetActive(false);
+
+            restartTxt.gameObject.SetActive(true);
+            restartTxt.text = "Please CLOSE & ReOPEN LAUNCHER!";
+        }
+        else
+        {
+            UnityEngine.Debug.Log("cancel");
+            if (PlayerPrefs.GetString("StoreFolder", null) == "")
+            {
+                rootPath = Directory.GetCurrentDirectory();
+                UnityEngine.Debug.Log("if rootPah: " + rootPath);
+                PlayerPrefs.SetInt("IsFirst", 1);
+            }
+            else
+            {
+                rootPath = PlayerPrefs.GetString("StoreFolder");
+                UnityEngine.Debug.Log("else rootPah: " + rootPath);
+                PlayerPrefs.SetInt("IsFirst", 1);
+            }
+        }*//*
+        
+    }*/
     void CheckForUpdates()
     {
         if (File.Exists(versionFile))
